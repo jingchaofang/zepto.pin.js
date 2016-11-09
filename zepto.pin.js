@@ -301,8 +301,7 @@
 
         $window.on('scroll', onScroll);
         $window.on('resize', recalculateLimits);
-        // recalculateLimits();
-        update();
+        recalculateLimits();
         $window.on('load', update);
         return this;
     };
